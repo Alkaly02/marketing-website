@@ -71,22 +71,21 @@
 	margin-bottom: 1.9em;
 	border-radius: 5px;
 }
-<<<<<<< HEAD
 #services h2, #services h3{
 	text-transform: uppercase;
 	padding: 0.5em;
 }
 
-=======
-#services h2, #services h3, #about-us h2{
+
+#services h2, #services h3, #about-us h2, #testimonials h2{
 	text-transform: uppercase;
 	padding: 0.5em;
 }
->>>>>>> about-us
+
 
 /*### about-us-section ###*/
 #about-us{
-	background-color: #eee;
+	background-color: #f8f9fa;
 }
 .about{
 	display: flex;
@@ -109,6 +108,24 @@
 .network-img{
 	width: 70%;
 }
+
+/*### testimonials-section ###*/
+.clients{
+	border-left: 4px solid #7b1798;
+	margin-left: 5px;
+	margin-top: 20px;
+	padding-left: 8px;
+}
+.client-img{
+	width: 60px;
+	border-radius: 50px;
+	display: inline-block;
+}
+.client-desc{
+	display: inline-block;
+	font-size: 15px;
+}
+
 
 
 
