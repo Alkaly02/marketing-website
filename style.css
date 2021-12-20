@@ -168,7 +168,6 @@
 		justify-content: center;
 		margin-top: 2.5em;
 	}
-<<<<<<< HEAD
 	.network-img{
 		width: 70%;
 	}
@@ -195,8 +194,9 @@
 		justify-content: center;
 	}
 }
-=======
+
 }
+
 @media(min-width: 576px){
 	.services-para{
 		text-align: justify;
@@ -209,4 +209,4 @@
 		text-align: justify;
 	}
 }
->>>>>>> services
+
