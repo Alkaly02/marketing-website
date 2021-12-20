@@ -71,14 +71,52 @@
 	margin-bottom: 1.9em;
 	border-radius: 5px;
 }
+<<<<<<< HEAD
 #services h2, #services h3{
 	text-transform: uppercase;
 	padding: 0.5em;
 }
 
+=======
+#services h2, #services h3, #about-us h2{
+	text-transform: uppercase;
+	padding: 0.5em;
+}
+>>>>>>> about-us
+
+/*### about-us-section ###*/
+#about-us{
+	background-color: #eee;
+}
+.about{
+	display: flex;
+	justify-content: space-evenly;
+}
+.left, .right{
+	width: 50%;
+}
+.left{
+	margin-top: 0.5em;
+}
+.left ul{
+	margin: 5px;
+	padding: 0;
+}
+.right{
+	display: flex;
+	justify-content: flex-end;
+}
+.network-img{
+	width: 70%;
+}
 
 
 
+@media(min-width: 905px){
+	.network-img{
+		margin-top: 10px;
+	}
+}
 
 @media(max-width: 768px){
 	.banner-color{
@@ -88,5 +126,30 @@
 		display: flex;
 		justify-content: center;
 		margin-top: 2.5em;
+	}
+	.network-img{
+		width: 70%;
+	}
+
+}
+@media(max-width: 713px){
+	.about{
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	.left, .right{
+		width: 100%;
+	}
+	.left{
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+	.left li{
+		list-style-type: none;
+	}
+	.right{
+		display: flex;
+		justify-content: center;
 	}
 }
