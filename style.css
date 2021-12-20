@@ -80,27 +80,7 @@
 #about-us{
 	background-color: #eee;
 }
-.about{
-	display: flex;
-	justify-content: space-evenly;
-}
-.left, .right{
-	width: 50%;
-}
-.left{
-	margin-top: 0.5em;
-}
-.left ul{
-	margin: 5px;
-	padding: 0;
-}
-.right{
-	display: flex;
-	justify-content: flex-end;
-}
-.network-img{
-	width: 70%;
-}
+
 
 
 
@@ -124,24 +104,23 @@
 	}
 
 }
-@media(max-width: 713px){
-	.about{
+@media(max-width: 725px){
+	.about-row{
+		display: flex;
 		flex-direction: column-reverse;
-		align-items: center;
 	}
-	.left, .right{
-		width: 100%;
-	}
-	.left{
-		text-align: center;
-		margin: 0;
-		padding: 0;
-	}
-	.left li{
-		list-style-type: none;
-	}
-	.right{
+	.about-left, .about-right{
 		display: flex;
 		justify-content: center;
+	}
+	.about-left{
+		width: 100% !important;
+		padding-top: 20px;
+	}
+	.about-left h3{
+		text-align: center;
+	}
+	.about-right{
+		width: 100% !important;
 	}
 }
