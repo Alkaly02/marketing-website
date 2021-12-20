@@ -75,7 +75,12 @@
 	text-transform: uppercase;
 	padding: 0.5em;
 }
-
+#services h3{
+	font-size: 1.1em;
+}
+#services p{
+	font-size: 1em;
+}
 
 
 
@@ -88,5 +93,17 @@
 		display: flex;
 		justify-content: center;
 		margin-top: 2.5em;
+	}
+}
+@media(min-width: 576px){
+	.services-para{
+		text-align: justify;
+	}
+}
+@media(min-width: 390px) and (max-width: 575px){
+	.services-para{
+		width: 80%;
+		margin: auto;
+		text-align: justify;
 	}
 }
