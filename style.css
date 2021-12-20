@@ -75,7 +75,12 @@
 	text-transform: uppercase;
 	padding: 0.5em;
 }
-
+#services h3{
+	font-size: 1.1em;
+}
+#services p{
+	font-size: 1em;
+}
 
 #services h2, #services h3, #about-us h2, #testimonials h2{
 	text-transform: uppercase;
@@ -163,6 +168,7 @@
 		justify-content: center;
 		margin-top: 2.5em;
 	}
+<<<<<<< HEAD
 	.network-img{
 		width: 70%;
 	}
@@ -189,3 +195,18 @@
 		justify-content: center;
 	}
 }
+=======
+}
+@media(min-width: 576px){
+	.services-para{
+		text-align: justify;
+	}
+}
+@media(min-width: 390px) and (max-width: 575px){
+	.services-para{
+		width: 80%;
+		margin: auto;
+		text-align: justify;
+	}
+}
+>>>>>>> services
